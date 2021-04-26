@@ -68,15 +68,15 @@ vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
 vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
 vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
 
-# Bluetooth - from curtana V12.0.1.7
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|323c931eb367ed303d71f435c407cfcbc96d079c
+# Bluetooth - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|5acf94f38e47c2ec43c95e132dfe7b5d71ec41c4
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1bdf9a454ef843d8bbd4559ea5c4bfba07ec6b00
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|384b6ceca9703c6f2fee5edc21947fdd6fdcc8d1
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|8e15d11bd1ffc3fb4debe1be9b0a0a0f3c510518
-vendor/lib64/libbtnv.so|b72a66ef2d0f7ce315e19f162db60db8891f3e61
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|302eca87415711253e0d47c3c12b031d4fa36714
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|86e247473332ecb950164eb115d7fea6214c7a45
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|08664074cf5c80d7209250e9c3aef90716802607
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|ebdfcc7064fc144acf6cba300486c6394af3d73b
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|5e06b7b33d084975d6326875268cb237ad6d8559
+vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|9c1b952043c7722fd27bfd971ecebb2584671862
 
 # Bluetooth (aptX) - from crosshatch-user 11 RP1A.201105.002 6869500 release-keys
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
