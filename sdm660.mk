@@ -97,9 +97,9 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.2-impl:32 \
+    android.hardware.soundtrigger@2.3-impl \
     audio.a2dp.default \
-		audio_amplifier.sdm660 \
+	audio_amplifier.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
     liba2dpoffload \
