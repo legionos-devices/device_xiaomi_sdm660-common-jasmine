@@ -199,8 +199,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
-	android.hardware.graphics.allocator@3.0-impl \
-	android.hardware.graphics.allocator@4.0-impl \
+    android.hardware.graphics.allocator@3.0-impl \
+    android.hardware.graphics.allocator@4.0-impl \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
@@ -247,7 +247,6 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss \
-    libsensorndkbridge \
     libwifi-hal-ctrl
 
 # GPS Config
@@ -380,7 +379,6 @@ PRODUCT_PACKAGES += \
 # OMX
 PRODUCT_PACKAGES += \
     libavservices_minijail \
-    libavservices_minijail.vendor \
     libc2dcolorconvert \
     libhypv_intercept \
     libmm-omxcore \
@@ -509,7 +507,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    rild \
     telephony-ext
 
 # RIL JAR
