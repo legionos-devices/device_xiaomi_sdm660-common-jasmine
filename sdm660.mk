@@ -100,6 +100,7 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl:32 \
     audio.a2dp.default \
     audio.r_submix.default \
+    audio.primary.sdm660 \
     audio.usb.default \
     libaudio-resampler \
     libhdmiedid \

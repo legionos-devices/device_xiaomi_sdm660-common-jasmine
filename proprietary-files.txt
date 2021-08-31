@@ -77,7 +77,6 @@ vendor/lib64/libaudcal.so|80ee15046e7a7249a0c9def9bf3f3d94efd3ce6a
 vendor/lib64/libaudioalsa.so|bdf49c709df8a1a7a7e232a6cb1ba6d15af594c7
 vendor/lib64/libaudioparsers.so|ad9394501d467fd264675ead74a4e6bab34eadd5
 vendor/lib64/libqtigef.so|1b7fa4dacefd97f019c342477ff57dc861e70277
-vendor/lib/hw/audio.primary.sdm660.so|7874ea0e303a9c969e186cbcb3bff293d40e9695
 
 # Alarm - from phoenix_sprout RKQ1.201123.002
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|d4d276e5ccbb923aa2080f48de5d85b8bdaab9ba
