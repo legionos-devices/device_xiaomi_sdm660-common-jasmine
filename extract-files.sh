@@ -73,31 +73,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-    vendor/bin/mlipayd@1.1)
-        "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
-        ;;
-
-    vendor/lib64/libmlipay.so | vendor/lib64/libmlipay@1.1.so)
-        "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
-        sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" "${2}"
-        ;;
-
     vendor/lib/hw/camera.sdm660.so)
-        "${PATCHELF}F" --add-needed camera.sdm660_shim.so "${2}"
+        patchelf --add-needed "camera.sdm660_shim.so" "${2}"
         ;;
-
-    vendor/lib64/libril-qc-hal-qmi.so)
-        "${PATCHELF}F" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
-        ;;
-
-    vendor/lib64/libwvhidl.so)
-        "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
-        ;;
-    system_ext/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml | system_ext/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
-        sed -i 's/xml version="2.0"/xml version="1.0"/' "${2}"
-        sed -i "s|product|system_ext|g" "${2}"
-        ;;
-
     esac
 }
 
