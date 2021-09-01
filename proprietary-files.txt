@@ -248,6 +248,13 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|0ff139504e354b06b9cb230bb2e34406c3700b66
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|520d20c145f1c8109470e592bcc360d09b5915bb
 
+# DSPp - from lemon 21.4.13
+vendor/bin/dspservice|97d6e5d59d3c4be93154f544fe2afef31e24d305
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|e553aafebc4b5f2908fc03f29b086cd1261aa454
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|78e36705372a19ac664bb890dacd35a96e66bb32
+
 # ESE - from curtana V12.0.4.0.RJWMIXM
 vendor/lib/vendor.qti.esepowermanager@1.0.so|d8d494f61e818df60913dc45fdc46bd3210aca24
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|1d9663e2ad911aa75da4b07a2b17dd023d4c796e
