@@ -1,1 +1,0 @@
-allow hvdcp vendor_sysfs_hvdcp:file r_file_perms;
