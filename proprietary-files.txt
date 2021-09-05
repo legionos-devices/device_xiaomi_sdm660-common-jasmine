@@ -513,6 +513,13 @@ vendor/lib64/libqrtr.so|c7ca700c1f4759aa673a6c5478ca492487bbea70
 -vendor/app/QCC-TR-UI/QCC-TR-UI.apk;PRESIGNED|dd6f103910138d6e76044c1a3989dceeff0a4ddc
 vendor/bin/qcc-trd|0145aff06c903f0293d79328d59ffcf01595a33f
 
+# QCC VND HAL - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
+vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|0b1e323871e2828b9e8970e42635e3f7999a17e4
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|6f587a9a2889a75559539b06c167960f06b01c42
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff01399081c79940
+
 # QMI - from curtana V12.0.4.0.RJWMIXM
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
