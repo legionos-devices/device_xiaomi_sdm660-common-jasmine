@@ -720,14 +720,14 @@ vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
 vendor/lib/sensors.ssc.so|ab53946c1bf4d207bb1a48fa9da92ceb3fdf39c6
 vendor/lib64/sensors.ssc.so|92f6c3da84c8790778b78b5dfa8593e12c940494
 
-# Soter - from curtana V12.0.4.0.RJWMIXM
--app/SoterService/SoterService.apk|939423f0016034cf8676f64d384aafde308f779b
-
-# Soter - from curtana V12.0.4.0.RJWMIXM
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|80ae6dfcb151cd0813b2d20442e540edede24772
+# Soter - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
+vendor/bin/vendor.qti.hardware.soter@1.0-provision|e6568ee7f006a0df2c931fd2c36deccfdd574e0e
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|abf6b782dfc2906e8649ca145aac9b1197694f72
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|f98b5eef4e9851ee4ff9546685e9c2fc2ba9e35a
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so|38fc92e5631f84c57d17e7fc1f71b6d33ac71392
+vendor/lib/vendor.qti.hardware.soter@1.0.so|cfe9a9564bfa26f97b2e417ab59abddc0a370f5c
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|c20b05b20874e6b7f14cd61346646c79c363f42f
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|1154dffcf41bd1a2257b93ebb4b20e0a8941de1c
 
 # Thermal - from curtana V12.0.4.0.RJWMIXM
 vendor/bin/thermal-engine|1b275fff739203b566a189fb4247383dd6e76e15
