@@ -498,6 +498,11 @@ vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|f00124642c63ec05493571e788
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|84e38997eb849e16f076d2071e5b3eceda167d1e
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|d660c3d3c1e849a1576b9d5f3f68322e78342f60
 
+# QDMA - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/etc/init/init.qdmastats.rc|837b16bf9600715345fc65d5d6c98ce97f2d4583
+vendor/lib/libqdma_file_agent.so|b5c38d672da1f5b0778f5a21109c503e2e5fd570
+vendor/lib64/libqdma_file_agent.so|c199c2a1d73411558db9b1c0e1bc6f4af19d881a
+
 # QRTR from curtana V12.0.4.0.RJWMIXM
 vendor/bin/qrtr-cfg|a7f9d9bf5cbd2e61c5853b6b2777ec20336e9866
 vendor/bin/qrtr-lookup|fb6cffbb7390b1b7f0cefe6c49ea8530d548dcee
