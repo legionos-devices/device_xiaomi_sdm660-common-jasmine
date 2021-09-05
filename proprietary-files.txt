@@ -238,6 +238,16 @@ vendor/lib64/libsecureui.so|33f081354f09c109a0fa09925f890b290a4b2576
 vendor/lib64/libsecureui_svcsock.so|8cb2b74edaf3ef77c8da0799cf241426a441d51f
 vendor/lib64/libssd.so|d056d130421f999321f32e046165776e20f1027d
 
+# DRM-Qteeconnector - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|416767059c2277fca448959332697eef38f09dc1
+vendor/lib/libQTEEConnector_vendor.so|9a9af7897fa571dfcedf3d7e7947d5d80cf371d3
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|cfaa11e635aaffccf89021202e5261f1c09a2080
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|5837ed96cb2d72a9fbdaa382223bc3aa78c05ce6
+vendor/lib64/libQTEEConnector_vendor.so|bf3050ea3ef5435f0289092681f07a2fe834958b
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|110d302864339b1bd135c66a19f22d5086d7fde9
+
 # DSP - from lemon-11-RKQ1.201004.002
 vendor/bin/dspservice|97d6e5d59d3c4be93154f544fe2afef31e24d305
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
