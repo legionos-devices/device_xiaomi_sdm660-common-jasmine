@@ -490,6 +490,14 @@ vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e53501
 vendor/lib64/vendor.display.color@1.2.so|7b967425caa1205e331484e1e1484ac3bd355067
 vendor/lib64/vendor.display.postproc@1.0.so|c9c96ff50b6ff8989fac9fdf35d282a996ea477a
 
+# QSEEcom Hal - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|d3d6ed383483747f8bec574adcac1c24ef1ac3a4
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so|3572fb4c4e43f59821ca8c6958f464143a46c9f7
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|f00124642c63ec05493571e788fec09be2bfe30b
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|84e38997eb849e16f076d2071e5b3eceda167d1e
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|d660c3d3c1e849a1576b9d5f3f68322e78342f60
+
 # QRTR from curtana V12.0.4.0.RJWMIXM
 vendor/bin/qrtr-cfg|a7f9d9bf5cbd2e61c5853b6b2777ec20336e9866
 vendor/bin/qrtr-lookup|fb6cffbb7390b1b7f0cefe6c49ea8530d548dcee
