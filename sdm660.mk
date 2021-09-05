@@ -110,7 +110,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    libssrec
+    libssrec \
+    tinymix
 
 # Audio Configs
 PRODUCT_COPY_FILES += \
