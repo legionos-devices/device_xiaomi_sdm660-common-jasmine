@@ -52,6 +52,11 @@ vendor/lib64/libcdsprpc.so|0852f993c82f0b46aa6cc786a78346bbbb91e355
 vendor/lib64/libcdsp_default_listener.so|3524b24feb967b095c10b91b22c98eff4d79e8ff
 vendor/lib64/libsysmon_cdsp_skel.so|055eda65786454d6de63e1cecefbc7a69006d369
 
+# Connection Security - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
+vendor/bin/ssgtzd|aa18ecd32558f4225f1768efd98d04b0b627049e
+vendor/etc/init/ssgtzd.rc|be60402995a8b6dcec3a726b83e7ae2de52017a6
+
 # Audio - from phoenix_sprout-11-RKQ1.201123.002
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 -system_ext/framework/audiosphere.jar|9c28317f12b93a6d881c80a991ff24716fce4a12
