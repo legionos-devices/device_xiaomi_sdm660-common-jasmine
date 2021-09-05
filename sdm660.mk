@@ -159,8 +159,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio@2.0-impl:32 \
-    libbthost_if \
-    libldacBT_dec \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
@@ -385,7 +383,6 @@ PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libhypv_intercept \
     libmm-omxcore \
-	libOmxSwVencHevc \
     libOmxCore \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -501,7 +498,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2 \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.secure_element@1.2 \
-    rild \
     libavservices_minijail.vendor \
     librmnetctl \
     libprotobuf-cpp-full \
