@@ -768,6 +768,13 @@ vendor/lib/vendor.qti.hardware.soter@1.0.so|cfe9a9564bfa26f97b2e417ab59abddc0a37
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|c20b05b20874e6b7f14cd61346646c79c363f42f
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|1154dffcf41bd1a2257b93ebb4b20e0a8941de1c
 
+# SSR - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/ssr_diag|cf32afa48dc74c45cc5516965bc4a9c65f20921e
+vendor/bin/ssr_setup|2b67755df4ca2ac73de3c187f2671195924ede9b
+vendor/bin/subsystem_ramdump|1614b22ab543c259d1e0687a0bfaa02f97414cba
+vendor/lib/libsubsystem_control.so|c51ec39cd5578e6078403e3855fa163a19da74e8
+vendor/lib64/libsubsystem_control.so|170458c913f84f3a5aea63318536a81afa1b6693
+
 # Thermal - from curtana V12.0.4.0.RJWMIXM
 vendor/bin/thermal-engine|1b275fff739203b566a189fb4247383dd6e76e15
 vendor/lib/libthermalfeature.so|57b7cb8b92ee3d0002f8884b1379653300ed5d47
