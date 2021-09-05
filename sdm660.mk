@@ -246,15 +246,6 @@ PRODUCT_PACKAGES += \
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# GPS / Location
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-impl-qti \
-    android.hardware.gnss@2.1-service-qti \
-    libbatching \
-    libgeofencing \
-    libgnss \
-    libwifi-hal-ctrl
-
 # GPS Config
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/gps/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
@@ -605,7 +596,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf \
     wpa_cli \
     hostapd_cli \
-    wificond
+    wificond \
+    libwifi-hal-ctrl
 
 # WiFi Configs
 PRODUCT_COPY_FILES += \
