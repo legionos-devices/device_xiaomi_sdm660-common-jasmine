@@ -509,6 +509,10 @@ vendor/bin/qrtr-lookup|fb6cffbb7390b1b7f0cefe6c49ea8530d548dcee
 vendor/bin/qrtr-ns|d43bfbc74ebc51b4ce88a628579325388710cd7b
 vendor/lib64/libqrtr.so|c7ca700c1f4759aa673a6c5478ca492487bbea70
 
+# QCC-TR-UI - from LA.UM.9.1.r1-10900-SMxxx0.0
+-vendor/app/QCC-TR-UI/QCC-TR-UI.apk;PRESIGNED|dd6f103910138d6e76044c1a3989dceeff0a4ddc
+vendor/bin/qcc-trd|0145aff06c903f0293d79328d59ffcf01595a33f
+
 # QMI - from curtana V12.0.4.0.RJWMIXM
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
