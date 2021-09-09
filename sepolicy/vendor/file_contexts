@@ -88,6 +88,7 @@
 /proc/touchpanel/wake_gesture                                                                                               u:object_r:sysfs_tap_to_wake:s0
 
 # Thermal
+/vendor/bin/mi_thermald		                                                                                                u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)?                                                                                                  u:object_r:thermal_data_file:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.mock                                                u:object_r:hal_thermal_default_exec:s0
 
